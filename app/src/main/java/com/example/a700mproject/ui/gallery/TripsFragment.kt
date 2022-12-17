@@ -1,4 +1,4 @@
-package com.example.a700mproject.ui.slideshow
+package com.example.a700mproject.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.a700mproject.databinding.FragmentBonusesBinding
+import com.example.a700mproject.databinding.FragmentTripsBinding
 
-class SlideshowFragment : Fragment() {
+class TripsFragment : Fragment() {
 
-    private var _binding: FragmentBonusesBinding? = null
+    private var _binding: FragmentTripsBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class SlideshowFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
-            ViewModelProvider(this).get(SlideshowViewModel::class.java)
+        val galleryViewModel =
+            ViewModelProvider(this).get(TripsViewModel::class.java)
 
-        _binding = FragmentBonusesBinding.inflate(inflater, container, false)
+        _binding = FragmentTripsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textBonuses
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textTrips
+        galleryViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root
