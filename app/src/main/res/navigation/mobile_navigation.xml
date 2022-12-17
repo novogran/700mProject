@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_trips"
         android:name="com.example.a700mproject.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="@string/menu_my_trips"
+        tools:layout="@layout/fragment_trips" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_bonuses"
         android:name="com.example.a700mproject.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/menu_my_bonuses"
+        tools:layout="@layout/fragment_bonuses" />
 </navigation>
