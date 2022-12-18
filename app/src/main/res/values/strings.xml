@@ -10,4 +10,13 @@
     <string name="menu_my_trips">My trips</string>
     <string name="menu_my_bonuses">My bonuses</string>
     <string name="menu_logout">Logout</string>
+
+    <string-array name="direction_array">
+        <item>Молодечно ➛ Минск</item>
+        <item>Минск ➛ Молодечно</item>
+    </string-array>
+    <string name="home_title_text">7520 Molodechno-Minsk</string>
+    <string name="choose_direction">Choose direction</string>
+    <string name="home_fragment_subtitle_text">Seat reservation system</string>
+
 </resources>
