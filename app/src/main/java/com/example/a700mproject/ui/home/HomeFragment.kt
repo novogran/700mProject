@@ -4,15 +4,17 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.example.a700mproject.HomeSpinnerFragment
 import com.example.a700mproject.R
 import com.example.a700mproject.databinding.FragmentHomeBinding
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(), HomeSpinnerFragment {
 
     private var _binding: FragmentHomeBinding? = null
 
@@ -37,7 +39,8 @@ class HomeFragment : Fragment() {
             textView.text = it
         }
 
-        val spinner: Spinner = binding.directionSpinner
+        val directionSpinner: Spinner = binding.directionSpinner
+        val pickUpSpotSpinner: Spinner = binding.pickupSpotSpinner
 
         this.context?.let {
             ArrayAdapter.createFromResource(
@@ -46,11 +49,15 @@ class HomeFragment : Fragment() {
                 R.layout.home_fragment_spinner_item
             ).also { adapter ->
                 adapter.setDropDownViewResource(R.layout.home_fragment_spinner_dropdown_item)
-                spinner.adapter = adapter
+                directionSpinner.adapter = adapter
             }
         }
 
         return root
+    }
+
+    override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+
     }
 
     override fun onDestroyView() {

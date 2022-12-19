@@ -11,12 +11,69 @@
     <string name="menu_my_bonuses">My bonuses</string>
     <string name="menu_logout">Logout</string>
 
+    <string name="home_title_text">7520 Molodechno-Minsk</string>
+    <string name="choose_direction">Choose direction</string>
+    <string name="home_fragment_subtitle_text">Seat reservation system</string>
+    <string name="choose_number_of_sites_text">Choose number of sites</string>
+
     <string-array name="direction_array">
         <item>Молодечно ➛ Минск</item>
         <item>Минск ➛ Молодечно</item>
     </string-array>
-    <string name="home_title_text">7520 Molodechno-Minsk</string>
-    <string name="choose_direction">Choose direction</string>
-    <string name="home_fragment_subtitle_text">Seat reservation system</string>
+
+    <string-array name="minsk_molodechno_pickup_spot_array">
+        <item>Ленинградская (Бобруйская 9)</item>
+        <item>Мясникова</item>
+        <item>Музыкальный театр (ул. Клары Цеткин)</item>
+        <item>Галантерейная</item>
+        <item>Клары Цеткин</item>
+        <item>маг. Трюм</item>
+        <item>Тимирязева (ТЦ Корона)</item>
+        <item>Панфилова</item>
+        <item>Игнатенко</item>
+        <item>Завод холодильников (Радиаторный завод)</item>
+        <item>Сапёров</item>
+        <item>2-е кольцо (Дельтабанк)</item>
+        <item>Леси Украинки</item>
+        <item>Веснянка (маг.Радивиловский)</item>
+        <item>ст. Масюковщина</item>
+        <item>Камайская</item>
+        <item>ТЦ Град</item>
+        <item>Ратомская</item>
+        <item>ТЦ Ждановичи (Лебяжий)</item>
+        <item>ст. Ждановичи</item>
+        <item>Центр Реабилитации</item>
+        <item>Ратомка</item>
+        <item>Крыжовка</item>
+        <item>Лошаны</item>
+    </string-array>
+
+    <string-array name="molodechno_mink_pickup_spot_array">
+        <item>А/В Молодечно 1 ПЛАТФОРМА</item>
+        <item>Улица Буйницкого</item>
+        <item>Магазин Алекор</item>
+        <item>Зеленый городок</item>
+        <item>Улица Великий Гостинец</item>
+        <item>Стоматология</item>
+        <item>ТЦ Модуль</item>
+        <item>14 школа</item>
+        <item>ТЦ Алми</item>
+        <item>Стелла</item>
+        <item>Пост ГАИ</item>
+        <item>Крыница</item>
+        <item>Загорье</item>
+        <item>Мясота</item>
+        <item>Льнозавод, Красное</item>
+        <item>Военная часть, Красное</item>
+        <item>Переезд, Красное</item>
+        <item>маг. Продукты (Танк), Красное</item>
+    </string-array>
+    <string name="contact_with_manager">Contact with manager</string>
+    <string name="book_of_comments_and_suggestions">Book of comment and suggesions</string>
+    <string name="organization_info">Торгово-производственное частное унитарное предприятие \"МаркизетСтиль\" РБ, 220070, г.Минск, ул.Грицевца, д. 4, помещение 7-П УНП 101002594 Зарегистрировано Минским горисполкомом решением от 29.06.2001 года №880 Свидельство о гос регистрации №101002594, выдано 23.08.2001 года. Лицензия №02190/1-47006, выдана Министерством транспорта и коммуникаций РБ. действительна по 21.10.2024 года.</string>
+    <string name="second_phone_number">+375 29 687-27-00</string>
+    <string name="first_phone_number">+375 33 687-27-00</string>
+    <string name="third_phone_number">+375 25 687-27-00</string>
+    <string name="sits_reservation_text">Бронирование мест по телефонам:</string>
 
 </resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Button
+        android:id="@+id/book_of_comments_and_suggestions_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/book_of_comments_and_suggestions"
+        android:textAllCaps="true"
+        android:layout_marginHorizontal="@dimen/home_fragment_base_margin"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/communication_with_manager_button"/>
+
+    <Button
+        android:id="@+id/communication_with_manager_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_with_manager"
+        android:textAllCaps="true"
+        android:layout_marginHorizontal="@dimen/home_fragment_base_margin"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/book_of_comments_and_suggestions_button"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/phone_numbers_barrier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        android:layout_margin="@dimen/home_fragment_base_margin"
+        app:layout_constraintTop_toBottomOf="@id/book_of_comments_and_suggestions_button"/>
+
+    <TextView
+        android:id="@+id/sits_reservation_text_text_view"
+        android:text="@string/sits_reservation_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/first_contact_phone_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_phone_number"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/second_contact_phone_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/second_phone_number"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/third_contact_phone_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/third_phone_number"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/info_barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top"
+        app:constraint_referenced_ids="third_contact_phone_number_text_view,organization_info_text_view"
+        android:layout_margin="@dimen/home_fragment_base_margin"/>
+
+    <TextView
+        android:id="@+id/organization_info_text_view"
+        android:text="@string/organization_info"
+        android:textAlignment="center"
+        android:layout_marginHorizontal="@dimen/home_fragment_base_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/info_barrier"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
