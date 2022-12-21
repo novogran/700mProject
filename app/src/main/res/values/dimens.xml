@@ -7,4 +7,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="home_fragment_base_padding">16dp</dimen>
     <dimen name="home_fragment_base_margin">16dp</dimen>
+    <dimen name="info_barrier_margin">32dp</dimen>
 </resources>
