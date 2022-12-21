@@ -7,4 +7,15 @@
     <string name="menu_home">Главная</string>
     <string name="nav_header_username">Имя пользователя</string>
     <string name="nav_header_phone_number">Номер телефона</string>
+    <string name="home_title_text">7520 Молодечно-Минск</string>
+    <string name="home_fragment_subtitle_text">Система бронирования мест</string>
+    <string name="choose_direction">Выберите направление</string>
+    <string name="choose_number_of_sites_text">Укажите количество мест</string>
+    <string name="contact_with_manager">Связь с руководителем</string>
+    <string name="book_of_comments_and_suggestions">Книга замечаний и предложений</string>
+    <string name="organization_info">Торгово-производственное частное унитарное предприятие "МаркизетСтиль" РБ, 220070, г.Минск, ул.Грицевца, д. 4, помещение 7-П УНП 101002594 Зарегистрировано Минским горисполкомом решением от 29.06.2001 года №880 Свидельство о гос регистрации №101002594, выдано 23.08.2001 года. Лицензия №02190/1-47006, выдана Министерством транспорта и коммуникаций РБ. действительна по 21.10.2024 года.</string>
+    <string name="sits_reservation_text">Бронирование мест по телефонам:</string>
+    <string name="what_is_bonuses_questions_text">Что такое бонусы?</string>
+    <string name="bonuses_description_text">Бонусы мы начисляем вам за каждую оплаченную поездку. После завершения каждой поездки, на баланс вашего аккаунта будет начислено 33 бонуса, которые вы можете потратить на оплату последующих поездок по курсу:</string>
+    <string name="bonuses_burns_text">Бонусы сгорают?</string>
 </resources>
